@@ -66,7 +66,16 @@ class Config(object):
     )
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
-    SPAMMERS = None
+    SPAMMERS = None 
+    ALLOW_CHATS = True 
+    OPENWEATHERMAP_ID = None 
+    BOT_ID = " "
+    TEMP_DOWNLOAD_DIRECTORY = " "
+    MONGO_DB_URI = None 
+    VIRUS_API_KEY = None 
+    HEROKU_API_KEY = None 
+    HEROKU_APP_NAME = None 
+    APP_ID = API_ID
 
 class Production(Config):
     LOGGER = True
